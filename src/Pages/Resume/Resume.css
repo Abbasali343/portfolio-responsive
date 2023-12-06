@@ -1,0 +1,19 @@
+.resume-sub-container{
+   
+    grid-column: 2/3;
+    display: grid;
+    grid-template: 1fr/10% 1fr 10%;
+}
+.resume-main-body {
+  grid-column: 2/3;
+  display: grid;
+  grid-template: 10%  20% repeat(2, 1fr) / 1fr;
+}
+.education-container{
+
+grid-row: 3/4;
+}
+.experience-container{
+grid-row: 4/5;
+
+}

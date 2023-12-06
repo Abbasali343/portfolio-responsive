@@ -1,0 +1,52 @@
+.education-main-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: 10% 1fr/1fr;
+}
+.education-text-heading {
+  grid-row: 1/2;
+  font-size: 22px;
+  justify-self: center;
+  margin: 0;
+}
+.education-sub-container {
+  grid-row: 2/3;
+  display: grid;
+  grid-template: 10% 1fr 8% / repeat(3, 1fr);
+  column-gap: 10px;
+  position: relative;
+  overflow: auto;
+}
+.education-card-container {
+  grid-area: 2/1/3/2;
+  display: grid;
+  align-content: start;
+  overflow: hidden;
+}
+.education1 {
+  grid-area: 2/1/3/2;
+}
+.education2 {
+  grid-area: 2/2/3/3;
+}
+.education3 {
+  grid-area: 2/3/3/4;
+}
+.education-main-heading-container {
+  width: 70%;
+  height: 30px;
+  background-color: var(--main-color);
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.education-main-heading {
+  font-size: 16px;
+  margin: 0;
+}
+.education-main-uni {
+  max-width: 90%;
+  font-size: 16px;
+}

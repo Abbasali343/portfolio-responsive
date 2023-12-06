@@ -1,0 +1,49 @@
+.contact-main-body {
+  grid-column: 2/3;
+  display: grid;
+  grid-template: 10% 20% 1fr / 1fr;
+}
+.contact-intro-container {
+  grid-row: 3/4;
+  display: grid;
+  grid-template: 30% 1fr 20%/1fr;
+}
+.contact-heading-container {
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: 10% 1fr 2fr;
+}
+.contact-heading{
+  grid-row: 2/3;
+}
+.contact-description {
+  grid-row: 3/4;
+  max-width: 90%;
+  color: #777777;
+}
+.contact-main-container {
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-sub-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-image {
+  width: 90px;
+  justify-self: center;
+  align-self: center;
+}
+.contact-main-heading {
+  align-self: center;
+}
+.contact-image2 {
+  width: 160px;
+}
+.contact-greetings-container {
+  grid-row: 3/4;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}

@@ -1,0 +1,47 @@
+.profession-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: 15% 1fr/3% 1fr;
+}
+.profession-text {
+  grid-column: 2/3;
+  justify-self: center;
+}
+.profession-sub-container {
+  grid-column: 2/3;
+  display: grid;
+  grid-template: repeat(3, 1fr) / 1fr;
+  gap: 5px;
+  overflow: auto;
+}
+.profession-main-container {
+  display: grid;
+  grid-template: 1fr/30% 2% 1fr;
+}
+.profession-main-sub-container1 {
+  grid-column: 1/2;
+}
+.profession-main-sub-container2 {
+  grid-column: 3/4;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 1fr 4fr;
+}
+.profession-img {
+  width: 100%;
+  height: 100%;
+}
+.profession-heading {
+  font-size: var(--profession-heading-font-size);
+  margin: 0;
+}
+.profession-description {
+  width: 100%;
+  height: 45px;
+  overflow: hidden;
+  color: #5f5f5f;
+  font-size: var(--profession-description-font-size);
+  margin: 0;
+}
